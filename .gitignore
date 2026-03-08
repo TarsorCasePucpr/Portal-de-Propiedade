@@ -1,4 +1,6 @@
 .env
+.env.*
+backend/utils/secrets.php
 *.log
 /vendor/
 node_modules/
