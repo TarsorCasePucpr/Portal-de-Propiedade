@@ -158,7 +158,7 @@ Categorias e objetos prioritários (mais roubados e revendidos em mercado secund
 ## Estrutura do Projeto
 
 ```
-Portal-de-Propiedade/
+Portal-para-Registro-de-Propriedade/
 ├── frontend/
 │   ├── css/
 │   │   └── style.css
@@ -245,8 +245,8 @@ git push origin feature/seunome
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/TarsorCasePucpr/Portal-de-Propiedade.git
-   cd Portal-de-Propiedade
+   git clone https://github.com/TarsorCasePucpr/Portal-para-Registro-de-Propriedade.git
+   cd Portal-para-Registro-de-Propriedade
    ```
 
 2. Instale as dependências:
@@ -262,7 +262,7 @@ git push origin feature/seunome
 
 4. Importe o banco de dados:
    ```bash
-   mysql -u root -p portal_propiedade < database/schema.sql
+   mysql -u root -p portal_propriedade < database/schema.sql
    ```
 
 5. Configure o servidor web apontando para a raiz do projeto.
