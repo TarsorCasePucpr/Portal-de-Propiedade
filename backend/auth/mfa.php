@@ -1,0 +1,2 @@
+<?php
+// mfa.php

@@ -1,0 +1,2 @@
+-- schema.sql
+-- Banco de dados: serialsafe

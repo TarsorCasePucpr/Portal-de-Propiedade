@@ -1,0 +1,2 @@
+<?php
+// buscar.php
