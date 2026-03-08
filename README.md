@@ -1,6 +1,6 @@
 # Portal de Propiedade
 
-Sistema web para cadastro, validação e rastreamento de produtos por número de série.
+Portal web para listagem, cadastro e gestão de propriedades.
 
 ## Estrutura do Projeto
 
@@ -38,9 +38,14 @@ Portal-de-Propiedade/
 │   │   ├── buscar.php
 │   │   ├── status.php
 │   │   └── contato.php
+│   ├── middleware/
+│   │   ├── auth_guard.php
+│   │   ├── csrf.php
+│   │   └── rate_limiter.php
 │   └── utils/
 │       ├── hash.php
 │       ├── mailer.php
+│       ├── response.php
 │       └── secrets.php
 ├── database/
 │   └── schema.sql
@@ -69,7 +74,7 @@ Portal-de-Propiedade/
 
 3. Importe o schema do banco de dados:
    ```bash
-   mysql -u root -p serialsafe < database/schema.sql
+   mysql -u root -p portal_propiedade < database/schema.sql
    ```
 
 4. Configure o servidor web apontando para a raiz do projeto.
