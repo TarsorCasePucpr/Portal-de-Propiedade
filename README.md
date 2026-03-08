@@ -1,6 +1,14 @@
-# Portal de Propiedade
+# Portal para Registro de Propriedade
 
-Sistema web de registro e rastreamento de objetos por número de série, com dois objetivos principais:
+**Disciplina:** Experiência Criativa: Implementando Sistemas com Criptografia
+**Professores:** Altair Olivo Santin / Aramis Hornung Moraes
+**Equipe:** Gerard Gonzalez, Gustavo Batista de Souza, Henrique Bernardo Maciel, Kauã Garcia Reschetti Rubbo, Wellington Breno Evangelista Costa
+
+---
+
+Sistema web para cadastro de proprietário de qualquer produto que contenha número de série único, com o objetivo de auxiliar o proprietário, a polícia e outros cidadãos a encontrar o dono de um objeto.
+
+Dois objetivos principais:
 
 1. **Recuperação de objetos perdidos** — qualquer pessoa que encontre um objeto pode consultar o número de série, identificar o dono e acionar a devolução via autoridades.
 2. **Eliminação do mercado secundário de roubados** — compradores podem verificar se um objeto está marcado como roubado antes de adquiri-lo, desincentivando o roubo pela queda de demanda.
